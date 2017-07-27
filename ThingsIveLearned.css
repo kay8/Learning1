@@ -1,25 +1,36 @@
-body {
-	font-family: Lora;
-	width: 370px;
-    margin: 30px auto;
-    border: 10px double blue;
-    padding: 0px 25px;
+html {
+  box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Lora;
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: 30px auto;
+  border: 5px double #808080;
+  padding: 0px 25px;
 }
 
 .title {
-	text-align: center;
-	font-family: Raleway;
-	padding-top: 5px;
-
-
+  text-align: center;
+  font-family: Raleway;
+  padding-top: 5px;
 }
-.category1 {
-	font-size: 1.2em;
-	padding-top: 10px;
 
+.category1 {
+  font-size: 1.2em;
+  padding-top: 10px;
 }
 
 li {
-	line-height: 1.4em;
+  line-height: 1.4em;
 }
