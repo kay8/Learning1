@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+  background: #e5e5e5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ 
+.firstline {
+	table-layout: fixed;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.topsentence {
+	color: white;
+	font-size: 30px;
+	line-height: 0.5em;
+	position: relative;
+	bottom: 420px;
+	left: 30px;
+}
+
+.topsentence h1 {
+	position: 
+}
+
+.topsentence h5{
+	font-size: 20px;
+}
+
+.learnmore {
+	color: white;
+	background: #97c3db;
+	height: 47px;
+	width: 120px;
+	border: none;
+	font-size: 12px;
+}
+
+.search {
+	width: 10px;
+	margin-left: auto;
+	margin-right: 120px;
+}
+
+.menu {
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.images img {
+	margin: 3px;
+	width: 650px
+}
+
+.images {
+	text-align: center;
+}
+
+.sale {
+	text-align: center;
+	vertical-align: middle;
+	background: white;
+	height: 324.64px;
+	width: 650px;
+}
+
+
+
+.collectionlist {
+	text-align: center;
+}
+
+.collectionlist {
+	width: 1306px;
+	margin: 0px auto;
+}
+
+.collectionlist img {
+	margin: 20px 20px 0px 20px;
+	width:  380px;
+}
+
+
+.listname{
+	table-layout: fixed;
+	width: 1306px;
+	color: white;
+	font-size: 25px;
+	position: relative;
+	bottom: 200px;
+}
+
+
+
+
+
